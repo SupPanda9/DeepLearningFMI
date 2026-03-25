@@ -20,3 +20,7 @@ class TestSimulateRandomWalk(unittest.TestCase):
         _, _, _, dice, step = simulate_random_walk()
         self.assertEqual(dice, 6)
         self.assertEqual(step, 52)
+
+
+if __name__ == "__main__":
+    unittest.main()
